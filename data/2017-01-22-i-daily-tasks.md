@@ -2,10 +2,10 @@
 layout: post
 title:  "i-daily-tasks"
 date:   2017-01-22
-excerpt: "null"
+excerpt: ""
 project: true
 tag:
 - project
-comments: true
+comments: false
 ---
 # i-daily-tasks

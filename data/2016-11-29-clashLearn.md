@@ -6,7 +6,7 @@ excerpt: "clash learn website for bases that matters   https://aniket965.github.
 project: true
 tag:
 - project
-comments: true
+comments: false
 ---
 # Clash learn
 

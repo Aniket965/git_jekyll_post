@@ -6,6 +6,6 @@ excerpt: "server for fampool app "
 project: true
 tag:
 - project
-comments: true
+comments: false
 ---
 # fampool-server

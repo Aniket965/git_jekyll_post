@@ -6,7 +6,7 @@ excerpt: "learning Resources list for javascricpt"
 project: true
 tag:
 - project
-comments: true
+comments: false
 ---
 # Learn-javascript
 Learning Resources list for javascricpt

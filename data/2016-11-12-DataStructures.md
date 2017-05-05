@@ -6,7 +6,7 @@ excerpt: "website for data structures and allgorithums"
 project: true
 tag:
 - project
-comments: true
+comments: false
 ---
 # DataStructures
 website for data structures and allgorithums

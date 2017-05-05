@@ -2,10 +2,10 @@
 layout: post
 title:  "Distortion-Computer"
 date:   2017-02-11
-excerpt: "null"
+excerpt: ""
 project: true
 tag:
 - project
-comments: true
+comments: false
 ---
 # Distortion-Computer

@@ -6,7 +6,7 @@ excerpt: "collections of algorithms in Node"
 project: true
 tag:
 - project
-comments: true
+comments: false
 ---
 # algo-world
 

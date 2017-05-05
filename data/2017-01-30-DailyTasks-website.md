@@ -2,10 +2,10 @@
 layout: post
 title:  "DailyTasks-website"
 date:   2017-01-30
-excerpt: "null"
+excerpt: ""
 project: true
 tag:
 - project
-comments: true
+comments: false
 ---
 # DailyTasks-website

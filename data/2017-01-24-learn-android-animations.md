@@ -2,11 +2,11 @@
 layout: post
 title:  "learn-android-animations"
 date:   2017-01-24
-excerpt: "null"
+excerpt: ""
 project: true
 tag:
 - project
-comments: true
+comments: false
 ---
 # learn-android-animations
 Learning Resources list for android animations

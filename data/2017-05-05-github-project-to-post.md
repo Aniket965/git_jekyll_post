@@ -6,7 +6,7 @@ excerpt: "This is script for automating the process making  posts in markdown fi
 project: true
 tag:
 - project
-comments: true
+comments: false
 ---
 # github-project-to-post
 This is script for automating the process making  posts in markdown files for jekyll theme based blog pages

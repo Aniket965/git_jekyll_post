@@ -6,6 +6,6 @@ excerpt: " photo mosiac creater in processing"
 project: true
 tag:
 - project
-comments: true
+comments: false
 ---
 # photo_mosiac

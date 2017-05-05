@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "get-json": "^0.0.3",
     "request": "^2.81.0"
   }
 }

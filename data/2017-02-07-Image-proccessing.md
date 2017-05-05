@@ -2,10 +2,10 @@
 layout: post
 title:  "Image-proccessing"
 date:   2017-02-07
-excerpt: "null"
+excerpt: ""
 project: true
 tag:
 - project
-comments: true
+comments: false
 ---
 # Image-proccessing

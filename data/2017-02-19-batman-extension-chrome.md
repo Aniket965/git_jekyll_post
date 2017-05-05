@@ -6,7 +6,7 @@ excerpt: "a extension for chrome for making a newtab with batman theme"
 project: true
 tag:
 - project
-comments: true
+comments: false
 ---
 # batman-extension-chrome
 a extension for chrome for making a newtab with batman theme

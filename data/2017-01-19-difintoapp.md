@@ -2,10 +2,10 @@
 layout: post
 title:  "difintoapp"
 date:   2017-01-19
-excerpt: "null"
+excerpt: ""
 project: true
 tag:
 - project
-comments: true
+comments: false
 ---
 # difintoapp

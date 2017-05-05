@@ -6,7 +6,7 @@ excerpt: "music-gestures"
 project: true
 tag:
 - project
-comments: true
+comments: false
 ---
 # links
 links

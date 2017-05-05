@@ -2,10 +2,10 @@
 layout: post
 title:  "video-proccessing-in-processing"
 date:   2017-03-11
-excerpt: "null"
+excerpt: ""
 project: true
 tag:
 - project
-comments: true
+comments: false
 ---
 # video-proccessing-in-processing

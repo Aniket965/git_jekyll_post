@@ -6,7 +6,7 @@ excerpt: "baap of all apps "
 project: true
 tag:
 - project
-comments: true
+comments: false
 ---
 # MedicalKaam
 baap of all apps 

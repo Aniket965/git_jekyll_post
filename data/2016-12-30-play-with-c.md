@@ -6,7 +6,7 @@ excerpt: "website for learning c for gaming in fun way "
 project: true
 tag:
 - project
-comments: true
+comments: false
 ---
 # play-with-c
 website for learning c language and start loving programming

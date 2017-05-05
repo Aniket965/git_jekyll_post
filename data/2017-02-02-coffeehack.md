@@ -2,10 +2,10 @@
 layout: post
 title:  "coffeehack"
 date:   2017-02-02
-excerpt: "null"
+excerpt: ""
 project: true
 tag:
 - project
-comments: true
+comments: false
 ---
 # coffeehack

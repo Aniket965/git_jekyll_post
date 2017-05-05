@@ -6,7 +6,7 @@ excerpt: "test for sake of learning"
 project: true
 tag:
 - project
-comments: true
+comments: false
 ---
 # github1test
 test for sake of learning

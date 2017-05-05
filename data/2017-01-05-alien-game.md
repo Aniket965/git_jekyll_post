@@ -6,7 +6,7 @@ excerpt: "alien game using python"
 project: true
 tag:
 - project
-comments: true
+comments: false
 ---
 # alien-game
 alien game using python

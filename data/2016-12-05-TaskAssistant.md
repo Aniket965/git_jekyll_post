@@ -6,6 +6,6 @@ excerpt: "an task assistant to keep track of the tasks easily"
 project: true
 tag:
 - project
-comments: true
+comments: false
 ---
 # TaskAssistant app

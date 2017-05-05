@@ -6,6 +6,6 @@ excerpt: "for demo  https://aniket965.github.io/snake-game-Javascript/."
 project: true
 tag:
 - project
-comments: true
+comments: false
 ---
 # snake-game-Javascript

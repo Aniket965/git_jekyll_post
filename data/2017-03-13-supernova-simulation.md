@@ -2,11 +2,11 @@
 layout: post
 title:  "supernova-simulation"
 date:   2017-03-13
-excerpt: "null"
+excerpt: ""
 project: true
 tag:
 - project
-comments: true
+comments: false
 ---
 # supernova-simulation
 

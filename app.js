@@ -26,6 +26,8 @@ function generatePostfromrepo(repo) {
     if (!repo.fork) {
         var repo_name = repo.name;
         var repo_description = repo.description;
+        if (repo_description === null)
+            repo_description = '';
         var repo_date = repo.created_at.slice(0, 10);
         filename = repo_date + "-" + repo_name;
         post_data = '---' + '\n' +
@@ -36,11 +38,10 @@ function generatePostfromrepo(repo) {
             'project: true' + '\n' +
             'tag:' + '\n' +
             '- project' + '\n' +
-            'comments: true' + '\n' +
-            '---'+'\n';
-         ;
-        getReadmeData(repo.full_name,post_data,filename);
-        
+            'comments: false' + '\n' +
+            '---' + '\n';;
+        getReadmeData(repo.full_name, post_data, filename);
+
 
 
     }
@@ -53,16 +54,16 @@ function savemarkdown(filename, content) {
         if (err) {
             return console.log(err);
         }
-        console.log("The file was saved!");
+        console.log("The file " + filename + " was saved!");
     });
 }
 
-function getReadmeData(full_name,post_data,filename) {
-    request( 'https://raw.githubusercontent.com/' + full_name + '/master/README.md', function (error, response, body) {
+function getReadmeData(full_name, post_data, filename) {
+    request('https://raw.githubusercontent.com/' + full_name + '/master/README.md', function (error, response, body) {
         if (!error && response.statusCode == 200) {
-          var post  = post_data + body;
-          savemarkdown(filename,post);
-          
+            var post = post_data + body;
+            savemarkdown(filename, post);
+
         }
     });
 

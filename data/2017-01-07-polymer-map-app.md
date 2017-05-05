@@ -2,10 +2,10 @@
 layout: post
 title:  "polymer-map-app"
 date:   2017-01-07
-excerpt: "null"
+excerpt: ""
 project: true
 tag:
 - project
-comments: true
+comments: false
 ---
 # polymer-map-app

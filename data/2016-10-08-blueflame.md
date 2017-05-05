@@ -6,7 +6,7 @@ excerpt: "a how to style website"
 project: true
 tag:
 - project
-comments: true
+comments: false
 ---
 # blueflame
 a how to style website
