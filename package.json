@@ -1,5 +1,5 @@
 {  "name": "git_jekyll_post",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Automating posts generation for jeykll blogs for github projects",
   "main": "git_jekyll_post.js",
   "bin": {
