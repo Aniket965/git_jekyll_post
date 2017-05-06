@@ -34,6 +34,7 @@ current working directory
 
 ## sample generated file 
 ```
+---
 layout: post
 title:  "SenPaper"
 date:   2017-04-09
