@@ -5,7 +5,7 @@ var prompt = require('prompt');
 
 module.exports = function () {
     username = '';
-    var dir = __dirname + '/_posts';
+    var dir = process.cwd() + '/_posts';
     if (!fs.existsSync(dir)) {
         fs.mkdirSync(dir);
     }
@@ -82,7 +82,7 @@ module.exports = function () {
     }
     // for  saving markdown file
     function savemarkdown(filename, content) {
-        fs.writeFile(__dirname + "/_posts/" + filename + ".md", content, function (err) {
+        fs.writeFile(process.cwd() + "/_posts/" + filename + ".md", content, function (err) {
             if (err) {
                 return console.log(err);
             }
