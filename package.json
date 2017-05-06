@@ -1,5 +1,6 @@
-{  "name": "git_jekyll_post",
-  "version": "0.0.5",
+{
+  "name": "git_jekyll_post",
+  "version": "1.0.1",
   "description": "Automating posts generation for jeykll blogs for github projects",
   "main": "git_jekyll_post.js",
   "bin": {
@@ -27,6 +28,7 @@
   "homepage": "https://github.com/aniket965/git_jekyll/post#readme",
   "dependencies": {
     "colors": "^1.1.2",
+    "github-topics": "^1.0.0",
     "prompt": "^1.0.0",
     "request": "^2.81.0"
   }

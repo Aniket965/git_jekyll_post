@@ -41,7 +41,11 @@ date:   2017-04-09
 excerpt: "this is android Experiment that Generates the Material Wallpapers by use of Sensors"
 project: true
 tag:
-- project
+- android
+- sensors
+- experiment
+- androidexperiment
+- android-experiment
 comments: false
 ---
 ## SenPaper<a href='https://play.google.com/store/apps/details?id=com.jarvis.scibots.SenPaper&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
@@ -62,6 +66,7 @@ this is android Experiment that Generates the Material Wallpapers by use of Sens
  
 ## what next ?
 > well if making wallpaper from sensors can give us fun , then breaking them may also give enjoyment ,it will be interesting if wallpaper is can make a story and people can read wallpaper and break stories from them. 
+
 ```
 
 or you can see [demo](http://aniket965.tech/blog/SenPaper/) of this published post 

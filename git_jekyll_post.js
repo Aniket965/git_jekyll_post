@@ -2,6 +2,7 @@ var request = require("request");
 var fs = require('fs');
 var colors = require('colors');
 var prompt = require('prompt');
+var github_topics = require('github-topics');
 
 module.exports = function () {
     username = '';
@@ -23,7 +24,7 @@ module.exports = function () {
 
 
     function getdetails() {
-        console.log('Welcome ,'.red+' \n to git jekyll posts'.white);
+        console.log('Welcome ,'.red + ' \n to git jekyll posts'.white);
         console.log('all posts will be saved under _posts dir under current directory'.yellow);
 
         prompt.start();
@@ -49,7 +50,7 @@ module.exports = function () {
     getdetails();
 
     function generatePostfromrepo(repo) {
-        
+
         // if that repo is not forked, means original author of repo is author
         if (!repo.fork) {
             console.log('formating '.green + repo.name.yellow + " Started".green);
@@ -61,16 +62,20 @@ module.exports = function () {
             var repo_date = repo.created_at.slice(0, 10);
             filename = repo_date + "-" + repo_name;
             // formats data in markdown format 
+            var topics = github_topics.gettopics('https://github.com/' +repo.full_name);
             post_data = '---' + '\n' +
                 'layout: post' + '\n' +
                 'title:  "' + repo_name + '"' +
                 '\n' + 'date:   ' + repo_date + '\n' +
                 'excerpt: "' + repo_description + '"' + '\n' +
                 'project: true' + '\n' +
-                'tag:' + '\n' +
-                '- project' + '\n' +
-                'comments: false' + '\n' +
-                '---' + '\n';;
+                'tag:' + '\n';
+
+            topics.forEach(function (topic) {
+                post_data += '- ' + topic + '\n';
+            });
+
+            post_data = post_data + 'comments: false' + '\n' + '---' + '\n';
             // add readme data in posts
             getReadmeData(repo.full_name, post_data, filename);
 
